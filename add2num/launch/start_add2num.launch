@@ -1,0 +1,7 @@
+<launch>
+    <!-- Launch the number1.py node -->
+    <node name="number_publisher_1" pkg="add2num" type="number1.py" output="screen" />
+    <node name="number_publisher_2" pkg="add2num" type="number2.py" output="screen" />
+    <node name="number_adder" pkg="add2num" type="result.py" output="screen" />
+
+</launch>

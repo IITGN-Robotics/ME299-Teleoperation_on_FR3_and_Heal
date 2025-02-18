@@ -22,8 +22,8 @@ cd ~/ws_name/src
 catkin_create_pkg add2num std_msgs rospy roscpp
 ```
 
-This command creates the `add2num` package that includes dependencies like `std_msgs`, `rospy`, and `roscpp`.
-
+This command creates the `add2num` package that includes dependencies like `std_msgs`, `rospy`, and `roscpp`. 
+In case any dependencies are missing, you can add those by editing the `CMakeLists.txt` file inside the add2num package and adding the necessary dependencies under the `find_package()` section.
 ### 3. Create and Set Up Publisher Nodes
 - **`number_publisher_1`**: A node that publishes a number to the `/number1` topic.
 - **`number_publisher_2`**: A node that publishes a number to the `/number2` topic.

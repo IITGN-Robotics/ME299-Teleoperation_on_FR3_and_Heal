@@ -1,3 +1,6 @@
+'''
+This code creates a node called number_publisher_2 that publishes a number to the topic /number2 
+'''
 #!/usr/bin/env python3
 
 import rospy

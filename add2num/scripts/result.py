@@ -1,3 +1,6 @@
+'''
+This code creates a node called number_adder that subscribes to topics /number1 and /number2 and publishes its result on a new topic called /result 
+'''
 #!/usr/bin/env python3
 
 import rospy

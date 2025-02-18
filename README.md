@@ -1,6 +1,3 @@
-Sure! Here’s the exact version formatted for your GitHub README:
-
-
 # ROS Publisher-Subscriber Example
 
 This project demonstrates the basic concepts of working within a ROS (Robot Operating System) environment using the Publisher-Subscriber architecture. The goal of this setup is to create multiple nodes that communicate with each other through topics.
@@ -48,6 +45,3 @@ rosrun add2num number_adder
 ```
 
 This will demonstrate how messages are passed between topics and processed using the Publisher-Subscriber model in ROS.
-
-By following the steps and using the provided code, you should be able to replicate the setup and observe the ROS communication between the nodes. Make sure you have ROS installed and the workspace properly set up before starting.
-```

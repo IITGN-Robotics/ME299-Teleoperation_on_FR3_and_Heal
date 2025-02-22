@@ -30,7 +30,7 @@ This guide provides step-by-step instructions to execute the robot and run the r
 
 4. **Navigate to the controller's execution directory:**  
    ```bash
-   cd test/build/...
+   cd test/build/
    ```
    This moves into the required directory for running the robot's server.  
 
@@ -49,11 +49,16 @@ This guide provides step-by-step instructions to execute the robot and run the r
    ```bash
    cd Debojit_ws/src/addverb_cobot_control/synchrohardware
    ```
-3. **Launch the controller using ROS:**  
+3. **Source the workspace:**  
+   ```bash
+   source ~/Debojit_ws/devel/setup.bash
+   ```
+   This ensures all environment variables are properly set.  
+4. **Launch the controller using ROS:**  
    ```bash
    roslaunch addverb_cobot_control bringup.launch
    ```
-4. **Important: Ensure the correct control mode is set in the configuration file.**  
+5. **Important: Ensure the correct control mode is set in the configuration file.**  
    - Open the configuration file:  
      ```bash
      nano Debojit_ws/src/addverb_cobot_control/config/default_control.yaml
@@ -85,7 +90,7 @@ After setting up the controller, open **another terminal** and follow these step
 
 3. **Run the script:**  
    ```bash
-   python joint_comnds.py
+   run joint_comnds.py
    ```
 
 ---
@@ -102,7 +107,7 @@ After setting up the controller, open **another terminal** and follow these step
    ```
 3. **Run the script:**  
    ```bash
-   python single_key.py
+   run single_key.py
    ```
 
 ---
@@ -119,6 +124,5 @@ After setting up the controller, open **another terminal** and follow these step
    ```
 3. **Run the script:**  
    ```bash
-   python multikey.py
+   run multikey.py
    ```
-

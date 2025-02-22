@@ -1,7 +1,3 @@
-Here’s a well-structured version suitable for a GitHub README:  
-
----
-
 # **HEAL Robot Joint Control and Teleoperation**  
 
 ## **Overview**  

@@ -40,6 +40,12 @@ This guide provides step-by-step instructions to execute the robot and run the r
    ```
    This launches the server that manages the robot’s hardware and communication.  
 
+6. **Home position:**
+   To bring the HEAL robot to its hime position you can run the following code on linux
+   ```bash
+   sudo ./base_rigid
+   ```
+   This launches the server that manages the robot’s hardware and communication. Ensure you execute this code before powering off the robot.
 ---
 
 ## **Step 2: Launch the Robot Controller**  
@@ -92,7 +98,6 @@ After setting up the controller, open **another terminal** and follow these step
    ```bash
    run joint_comnds.py
    ```
-
 ---
 
 ### **For Single-Key Teleoperation (`single_key.py`)**  
@@ -126,3 +131,4 @@ After setting up the controller, open **another terminal** and follow these step
    ```bash
    run multikey.py
    ```
+\[Instead of executing these files on your linux terminals you can directly run your files on VS studio code itself (it's one and the same thing).\]

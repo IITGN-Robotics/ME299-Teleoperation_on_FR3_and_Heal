@@ -1,2 +1,11 @@
-# ME299-Teleoperation_on_FR3_and_Heal
-This repository consists of the current work being carried out on tele-operating Franka and Heal robots with Human Arm Gestures
+HEAL Robot Joint Control and Teleoperation
+Overview
+We implemented joint command control and keyboard-based teleoperation for the HEAL robot at IITGN. The project consists of multiple scripts that handle different aspects of robot control.
+
+Joint Command Control
+The script joint_comnds.py is used to send joint commands to the robot using the joint controller.
+Keyboard Teleoperation
+We used keyboard inputs to teleoperate the robot, implementing two different approaches:
+
+single_key.py – Supports only one key press at a time.
+multikey.py – Allows multiple key presses simultaneously, enabling diagonal movement.

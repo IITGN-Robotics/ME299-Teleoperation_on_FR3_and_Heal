@@ -53,11 +53,11 @@ This guide provides step-by-step instructions to execute the robot and run the r
 1. Open a **new terminal** on your PC.  
 2. Navigate to the directory where the controller is stored:  
    ```bash
-   cd Debojit_ws/src/addverb_cobot_control/synchrohardware
+   cd Debojit_WS/Addverb_Heal_and_Syncro_Hardware
    ```
 3. **Source the workspace:**  
    ```bash
-   source ~/Debojit_ws/devel/setup.bash
+   source devel/setup.bash
    ```
    This ensures all environment variables are properly set.  
 4. **Launch the controller using ROS:**  
@@ -67,7 +67,7 @@ This guide provides step-by-step instructions to execute the robot and run the r
 5. **Important: Ensure the correct control mode is set in the configuration file.**  
    - Open the configuration file:  
      ```bash
-     nano Debojit_ws/src/addverb_cobot_control/config/default_control.yaml
+     nano addverb_cobot_control/config/default_control.yaml
      ```
    - Ensure the following line is correctly set:  
      ```yaml

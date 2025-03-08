@@ -30,7 +30,7 @@ This guide provides step-by-step instructions to execute the robot and run the r
 
 4. **Navigate to the controller's execution directory:**  
    ```bash
-   cd test/build/
+   cd tests/build/
    ```
    This moves into the required directory for running the robot's server.  
 

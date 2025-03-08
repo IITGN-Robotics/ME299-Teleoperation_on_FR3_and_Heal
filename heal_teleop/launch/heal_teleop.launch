@@ -1,0 +1,5 @@
+<launch>
+    <!-- Launch a node -->
+    <node pkg="heal_teleop" type="your_executable_name" name="heal_teleop_node" output="screen" />
+</launch>
+

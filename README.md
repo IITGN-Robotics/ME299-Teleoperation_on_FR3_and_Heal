@@ -11,7 +11,7 @@
 
 4. **Navigate to the controller's execution directory:**  
    ```bash
-   cd test/build/
+   cd tests/build/
    ```
    This moves into the required directory for running the robot's server.  
 

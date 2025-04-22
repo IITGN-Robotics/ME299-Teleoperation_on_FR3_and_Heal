@@ -19,11 +19,11 @@ The system operates in ROS and publishes velocity commands to a joint velocity c
 This teleoperation framework can also perform advanced manipulation tasks such as pick-and-place, making it ideal for remote manipulation.
 
 <p align="center">
-  <img src="media/snap1.png" width="180"/>
-  <img src="media/snap2.png" width="180"/>
-  <img src="media/snap3.png" width="180"/>
-  <img src="media/snap4.png" width="180"/>
-  <img src="media/snap5.png" width="180"/>
+  <img src="media/snap1.png" width="150"/>
+  <img src="media/snap2.png" width="150"/>
+  <img src="media/snap3.png" width="150"/>
+  <img src="media/snap4.png" width="150"/>
+  <img src="media/snap5.png" width="150"/>
 </p>
 
 <p align="center">

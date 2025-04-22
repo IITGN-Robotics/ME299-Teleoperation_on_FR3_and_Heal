@@ -1,0 +1,33 @@
+<mujoco model="heal_single_arm">
+ <include file="edited_xml.xml"/>
+
+ <statistic center="0.3 0 0.4" extent="0.8" meansize="0.08"/>
+
+ <visual>
+ <headlight diffuse="0.6 0.6 0.6" ambient="0.1 0.1 0.1" specular="0 0 0"/>
+ <global azimuth="120" elevation="-20"/>
+ </visual>
+
+ <asset>
+ <texture name="grid" type="2d" builtin="checker" rgb1=".2 .3 .4" rgb2=".1 0.15 0.2" width="512" height="512"
+ mark="cross" markrgb=".8 .8 .8"/>
+ <material name="grid" texture="grid" texrepeat="1 1" texuniform="true"/>
+ </asset>
+
+ <worldbody>
+ <!-- Light source for the environment -->
+ <light pos="0 0 1.5" directional="true"/>
+
+ <!-- Ground plane with texture -->
+ <geom name="floor" size="1 1 0.01" type="plane" material="grid"/>
+
+ <!-- The target (cube) body -->
+ <body name="target" pos="0.5 0 0.5" quat="0 1 0 0" mocap="true">
+ <!-- Set the geom's pos to "0 0 0" to center it on the body's origin -->
+ <geom type="box" pos="0 0 0" size="0.05 0.05 0.05" contype="0" conaffinity="0" rgba="0.6 0.3 0.3 0.2"/>
+ </body>
+
+ </worldbody>
+
+</mujoco>
+

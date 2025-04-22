@@ -1,0 +1,12 @@
+<launch>
+
+    <!-- Launch MoveIt! and RViz -->
+    <include file="$(find me299_moveit_config)/launch/demo.launch">
+        <arg name="use_rviz" value="true"/>
+    </include>
+
+    <!-- Launch RViz with a specific config file -->
+    <node name="rviz" pkg="rviz" type="rviz" required="true" output="screen" 
+        args="-d /home/pikapika/Debojit_WS/Addverb_Heal_and_Syncro_Hardware/src/cobot_ros/addverb_cobot_control/config/your_rviz_config.rviz" />
+    
+</launch>
